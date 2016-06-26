@@ -1,5 +1,7 @@
 # IbanGenerator
 
+This first version is supported only for three countries Germany, Austria and Netherlands.
+
 ###Iban example:
 
 ```java
@@ -19,3 +21,9 @@ String iban = iIbanService.generateRandomIban("NL");
 ```
 
 ###Architecture Proposal
+
+My idea is to create a Microservice using SpringBoot and Docker to expose the service and be consumed as an online API.
+
+###To Do
+
+Need to create a unit test to all domain, was only created integration test.
